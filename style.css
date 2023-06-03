@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+input{
+    border-radius: 5px;
+}
+.main{
+    margin: 20 auto;
+    max-width: 1350px;
+    background-color:white;
+    padding: 30px 2%;
+
+
+}.box{
+   background-image: url('../img/mato.png');
+   background-size: cover;
+   background-repeat: repeat;
+   background-position: center;
+ 
+   border-radius: 15px;
+   border: 5px solid #DDD;
+}
+
+.main h2{
+    font-size: 65px;
+    color: red;
+    text-align: center;
+ 
+    text-shadow: 5px 5px 5px #DDD;
+
+}
+.pokemon-boxes{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+   
+}
+.pokemon-box{
+    border-radius: 15px;
+    width:22%;
+    background-color:#DDD;
+    margin: 10px 2%;
+   
+
+}
+.pokemon-box img{
+    width: 30%;
+   
+}
+.pokemon-box p{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+@media screen and (max-width:768px){
+    .pokemon-box{ width: 100%;text-align: center;}
+    .pokemon-box img{max-width :300px ;}
+   
+}
